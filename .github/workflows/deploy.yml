@@ -27,7 +27,7 @@ jobs:
        - name: Cloning Private repo
          continue-on-error: true
          run: |
-           git clone https://${{ secrets.GH_NAME }}:${{ secrets.GH_TOKEN }}@${{ secrets.PR }} CREDS
+           git clone https://${{ secrets.GH_NAME }}:${{ secrets.GH_TOKEN }}@${{ secrets.PR }} PR
        - name: Running Userbot
          timeout-minutes: 350
          continue-on-error: true
