@@ -27,7 +27,6 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           cd PR
            bash ultroid.sh
        - name: Loop
          continue-on-error: true
