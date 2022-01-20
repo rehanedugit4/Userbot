@@ -27,7 +27,7 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           bash ultroid.sh
+           sudo bash ultroid.sh
        - name: Loop
          continue-on-error: true
          run: |
