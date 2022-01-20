@@ -1,7 +1,6 @@
 name: Ultroid workflow
 
 on:
-    push:
     workflow_dispatch:
     
 jobs:
@@ -23,11 +22,19 @@ jobs:
          continue-on-error: true
          run: |
            git clone https://${{ secrets.GH_NAME }}:${{ secrets.GH_TOKEN }}@${{ secrets.PR }} PR
-       - name: Running Userbot
+       - name: Get requirements
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           sudo sh ultroid.sh
+           cd PR
+           pip(3) install -U -r re*/st*/optional-requirements.txt
+           
+       - name: Running bomt
+         timeout-minutes: 350
+         continue-on-error: true
+         run: |
+           cd PR
+           bash startup
        - name: Loop
          continue-on-error: true
          run: |
