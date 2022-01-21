@@ -1,6 +1,7 @@
 name: Ultroid workflow
 
 on:
+    push:
     workflow_dispatch:
     
 jobs:
