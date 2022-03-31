@@ -1,3 +1,4 @@
+sudo apt install pip && sudo apt install docker
 git clone https://github.com/TeamUltroid/Ultroid /root/TeamUltroid
 cp PR/.env /root/TeamUltroid/.env
 cd /root/TeamUltroid
