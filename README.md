@@ -7,6 +7,11 @@ A Telegram userbot running on GitHub workflow
 #### Sheikh Adnan: https://github.com/ElytrA8  
 #### GitHub: https://github.com
 
+## WARNING
+   This can lead to ban your GitHub account.
+   Use it at your own risk I won't risk my ass if something happened with your account.
+   Thanks for understanding it ;)
+
 ## Requirements
 - GitHub Account
 - A Publis repo
