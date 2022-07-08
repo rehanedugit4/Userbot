@@ -14,7 +14,7 @@ A Telegram userbot running on GitHub workflow
 
 ## Requirements
 - GitHub Account
-- A Publis repo
+- A Public repo
 - A Private repo
 - Necessary things that your userbot requires (like API ID, HASH, Redis etc.)
 - A Telegram account
